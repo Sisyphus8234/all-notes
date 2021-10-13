@@ -1,0 +1,13 @@
+aaa
+
+id name value
+1  a        12
+2  a        11
+3  b        1
+4  b        2
+
+select max(value)+100,id from aaa group by name;
+
+sum(value) id
+112            1
+102            3

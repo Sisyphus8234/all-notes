@@ -1,0 +1,9 @@
+git status
+
+git commit -a -m "提交的描述信息"
+
+git push origin master111
+
+git fetch origin master111
+
+git pull origin master111
