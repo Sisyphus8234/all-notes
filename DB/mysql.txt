@@ -1,6 +1,14 @@
 net start mysql
 net start mysql80
 
+
+日志开启
+show variables like "general_log%";
+set global general_log= ON;
+位置
+C:\ProgramData\MySQL\MySQL Server 8.0\Data
+
+
 查看数据库存放文件位置
 show global variables like "%datadir%";
 
