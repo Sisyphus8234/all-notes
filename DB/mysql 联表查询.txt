@@ -28,13 +28,13 @@ ccc
 
 
 SELECT a.id,b.id,c.id FROM 
-aaa a LEFT JOIN bbb b ON a.id=b.aaa_id
+aaa a RIGHT JOIN bbb b ON a.id=b.aaa_id
 LEFT JOIN ccc c ON b.ccc_id=c.id;
 
-+----+------+------+
-| id | id   | id   |
-+----+------+------+
-|  1 |    2 |    2 |
-|  1 |    1 | NULL |
-|  2 | NULL | NULL |
-+----+------+------+
++------+----+------+
+| id   | id | id   |
++------+----+------+
+|    1 |  1 | NULL |
+|    1 |  2 |    2 |
+| NULL |  3 |    2 |
++------+----+------+
