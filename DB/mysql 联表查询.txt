@@ -9,15 +9,15 @@ aaa
 
 bbb
 
-+----+------------+
-| id | foreign_id |
-+----+------------+
-|  1 |          1 |
-|  2 |          1 |
-|  3 |          3 |
-+----+------------+
++----+--------+
+| id | aaa_id |
++----+--------+
+|  1 |      1 |
+|  2 |      1 |
+|  3 |      3 |
++----+--------+
 
-select a.id,b.id from aaa as a left join bbb as b on a.id=b.foreign_id;
+select a.id,b.id from aaa as a left join bbb as b on a.id=b.aaa_id;
 +----+------+
 | id | id   |
 +----+------+
@@ -26,7 +26,7 @@ select a.id,b.id from aaa as a left join bbb as b on a.id=b.foreign_id;
 |  2 | NULL |
 +----+------+
 
-select a.id,b.id from aaa as a right join bbb as b on a.id=b.foreign_id;
+select a.id,b.id from aaa as a right join bbb as b on a.id=b.aaa_id;
 +------+----+
 | id   | id |
 +------+----+
