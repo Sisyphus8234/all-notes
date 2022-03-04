@@ -9,28 +9,32 @@ aaa
 
 bbb
 
-+----+--------+
-| id | aaa_id |
-+----+--------+
-|  1 |      1 |
-|  2 |      1 |
-|  3 |      3 |
-+----+--------+
++----+--------+--------+
+| id | aaa_id | ccc_id |
++----+--------+--------+
+|  1 |      1 |    999 |
+|  2 |      1 |      2 |
+|  3 |    999 |      2 |
++----+--------+--------+
 
-select a.id,b.id from aaa as a left join bbb as b on a.id=b.aaa_id;
-+----+------+
-| id | id   |
-+----+------+
-|  1 |    2 |
-|  1 |    1 |
-|  2 | NULL |
-+----+------+
+ccc
 
-select a.id,b.id from aaa as a right join bbb as b on a.id=b.aaa_id;
-+------+----+
-| id   | id |
-+------+----+
-|    1 |  1 |
-|    1 |  2 |
-| NULL |  3 |
-+------+----+
++----+
+| id |
++----+
+|  1 |
+|  2 |
++----+
+
+
+SELECT a.id,b.id,c.id FROM 
+aaa a LEFT JOIN bbb b ON a.id=b.aaa_id
+LEFT JOIN ccc c ON b.ccc_id=c.id;
+
++----+------+------+
+| id | id   | id   |
++----+------+------+
+|  1 |    2 |    2 |
+|  1 |    1 | NULL |
+|  2 | NULL | NULL |
++----+------+------+
