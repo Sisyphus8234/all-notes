@@ -1,0 +1,8 @@
+insert into t_project_group (group_type, user_id,user_name, market_info_id,del_flag)
+select 0,99,"aaa",5,0 from dual
+where true
+
+
+insert into t_project_group (group_type, user_id,user_name, market_info_id,del_flag)
+select 0,99,"aaa",5,0 from dual
+where not exists(select id from t_project_group where market_info_id = 1)
