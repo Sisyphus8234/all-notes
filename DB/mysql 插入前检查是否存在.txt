@@ -7,9 +7,4 @@ insert into t_project_group (group_type, user_id,user_name, market_info_id,del_f
 select 0,99,"aaa",5,0 from dual
 where not exists(select id from t_project_group where market_info_id = 1)
 
-UPDATE table1 alias
-SET (column_name,column_name ) = (
-SELECT (column_name, column_name)
-FROM table2
-WHERE column_name = alias.column_name)
-WHERE column_name = VALUE
+update bbb set aaa_id =777 where id=3 and false;
