@@ -54,3 +54,6 @@ on t1.id=t2.id and t1.flag=0;
 | NULL |  2 |    0 |
 | NULL |  3 |    1 |
 +------+----+------+
+
+
+因此,主表(left join的左边或者right join的右边)的筛选条件放在where里,从表筛选条件放on后面
