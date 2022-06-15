@@ -1,0 +1,55 @@
+python 生成exe文件
+https://www.cnblogs.com/aoede-jacqueline/archive/2019/07/25/11244714.html
+
+pynput简单使用
+https://my.oschina.net/u/4315677/blog/3787604
+
+
+python with
+https://www.cnblogs.com/xiaxiaoxu/p/9747551.html
+
+打开其他文件
+https://www.cnblogs.com/hackpig/p/8185797.html
+
+用wireshark分析tcp
+https://www.cnblogs.com/suddoo/p/4870591.html
+
+ TCP三次握手中SYN，ACK，seq ack的含义
+https://www.cnblogs.com/muyi23333/articles/13841268.html
+
+详解三次握手与四次挥手
+https://baijiahao.baidu.com/s?id=1654225744653405133&wfr=spider&for=pc
+
+如何替换字符串中的数字？
+https://www.cnpython.com/qa/184320
+
+分享 5 个各具特色的 Flask（ Python ）开源项目
+https://www.v2ex.com/t/489834
+
+windows 改键
+https://www.itdaan.com/blog/2018/04/20/4526a6c9a22faf3f5bc56fe50761042c.html
+
+Python-import导入上级目录文件
+https://zhuanlan.zhihu.com/p/64893308
+
+范式
+https://www.cnblogs.com/linjiqin/archive/2012/04/01/2428695.html
+
+mysql udf
+https://www.cnblogs.com/raker/p/4377343.html
+
+调用百度图像识别
+https://www.cnblogs.com/cainiaoxiaobaidexuexifenxiang/p/13286121.html
+
+
+IDEA使用总结
+https://www.jianshu.com/p/48726216c9e2
+
+idea关闭不必要的插件减少内存占用
+https://fangweilong.github.io/2018/04/25/idea%E5%85%B3%E9%97%AD%E4%B8%8D%E5%BF%85%E8%A6%81%E7%9A%84%E6%8F%92%E4%BB%B6%E5%87%8F%E5%B0%91%E5%86%85%E5%AD%98%E5%8D%A0%E7%94%A8/#%E9%95%BF%E5%9B%BE-%E4%B8%8D%E6%B8%85%E6%99%B0%E7%9A%84%E5%8F%AF%E4%BB%A5%E4%BF%9D%E5%AD%98%E5%90%8E%E6%9F%A5%E7%9C%8B
+
+前端特效
+http://www.lanpangzi.life/zyfx/bcxx/qdym/list_69_2.html
+
+position
+https://www.runoob.com/w3cnote/css-position-static-relative-absolute-fixed.html
