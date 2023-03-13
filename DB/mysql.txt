@@ -47,3 +47,6 @@ FROM xxx
 
 导入sql文件：
 source sql文件的路径
+
+
+ANY_VALUE()
