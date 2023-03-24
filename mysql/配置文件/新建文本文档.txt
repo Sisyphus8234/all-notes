@@ -1,0 +1,9 @@
+配置文件路径,没有my.ini就自己新建?
+show variables like 'datadir';的上一级?
+
+
+我在这找到了配置文件,my.ini
+C:\ProgramData\MySQL\MySQL Server 8.0
+
+
+show VARIABLES like '%max_allowed_packet%';
