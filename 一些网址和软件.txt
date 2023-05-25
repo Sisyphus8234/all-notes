@@ -8,3 +8,5 @@ DeepL
 XYplorer
 
 WizTree
+
+PowerToys
