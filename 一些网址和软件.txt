@@ -13,7 +13,7 @@ PowerToys
 
 memreduct
 
-Visual Studio
+Visual Studio C++
 https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
 单机游戏破解
