@@ -7,3 +7,6 @@ git push origin master111
 git fetch origin master111
 
 git pull origin master111
+
+Git报错解决：OpenSSL SSL_read: Connection was reset, errno 10054
+git config --global http.sslVerify "false"
