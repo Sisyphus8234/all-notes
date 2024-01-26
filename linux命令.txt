@@ -1,5 +1,14 @@
 autodl使用的
 
+pwd
+
+查看文件大小
+ls -alh
+du -sh xxx
+
+删除文件/文件夹
+rm -rf xxx
+
 查找这个目录下所有是这个名字的文件
 find /path/to/search -type f -name *.safetensors
 
