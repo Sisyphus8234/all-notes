@@ -12,8 +12,16 @@ du -sh xxx
 find /path/to/search -type f -name *.safetensors
 
 删除文件/文件夹
-rm -rf ControlNet
+rm -rf /root/stable-diffusion-webui/models/Stable-diffusion
+rm -rf /root/stable-diffusion-webui/models/ControlNet
+rm -rf /root/stable-diffusion-webui/models/Lora
+rm -rf /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
 
+ln -s /root/autodl-tmp/my /root/stable-diffusion-webui/models/Stable-diffusion
 ln -s /root/autodl-tmp/my /root/stable-diffusion-webui/models/ControlNet
+ln -s /root/autodl-tmp/my /root/stable-diffusion-webui/models/Lora
+ln -s /root/autodl-tmp/my /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
+
+
 
 ll
