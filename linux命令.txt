@@ -9,7 +9,7 @@ du -sh xxx
 
 
 查找这个目录下所有是这个名字的文件
-find /path/to/search -type f -name *.safetensors
+find /root -type f -name *.safetensors
 
 mkdir -p /root/autodl-tmp/my/extensions/sd-webui-EasyPhoto/models
 
@@ -17,13 +17,15 @@ mkdir -p /root/autodl-tmp/my/extensions/sd-webui-EasyPhoto/models
 rm -rf /root/stable-diffusion-webui/models/Stable-diffusion
 rm -rf /root/stable-diffusion-webui/models/ControlNet
 rm -rf /root/stable-diffusion-webui/models/Lora
-rm -rf /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
 
 ln -s /root/autodl-tmp/my/models/Stable-diffusion /root/stable-diffusion-webui/models/Stable-diffusion
 ln -s /root/autodl-tmp/my/models/ControlNet /root/stable-diffusion-webui/models/ControlNet
 ln -s /root/autodl-tmp/my/models/Lora /root/stable-diffusion-webui/models/Lora
+
+
+
+
+rm -rf /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
 ln -s /root/autodl-tmp/my/extensions/sd-webui-EasyPhoto/models /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
-
-
 
 ll
