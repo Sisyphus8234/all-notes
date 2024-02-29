@@ -3,7 +3,6 @@ https://c.runoob.com/front-end/854/
 
 artstation
 
-
 Visual Studio C++
 https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170
 
@@ -15,6 +14,8 @@ https://sway.office.com/ZyHdQKVF0lCLyEuA
 https://jmcomic.ltd/?ref=www.acgbox.link
 
 软件:
+FreeFileSync
+
 XYplorer
 
 WizTree
