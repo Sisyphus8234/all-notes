@@ -1,0 +1,11 @@
+git init
+
+git remote add origin https://gitee.com/rte-dev/RedPlayer.git
+
+git pull
+
+git checkout -f main
+
+git lfs install
+
+git lfs track "*.ogg"
