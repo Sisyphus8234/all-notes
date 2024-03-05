@@ -34,3 +34,13 @@ rm -rf /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
 ln -s /root/autodl-tmp/my/extensions/sd-webui-EasyPhoto/models /root/stable-diffusion-webui/extensions/sd-webui-EasyPhoto/models
 
 ll
+
+---
+
+rm -rf /root/.cache
+ln -s /root/autodl-tmp/cache /root/.cache
+
+cd /root/autodl-tmp/
+cp -ravf ./* /root
+
+cp -ravf app /
