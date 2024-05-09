@@ -1,0 +1,21 @@
+${t}expense_application_detail_id,
+${t}budget_project_code,
+${t}budget_project_name,
+${t}calculation_basis,
+${t}application_amount,
+${t}approved_amount,
+${t}remark,
+${t}expense_application_base_id,
+${t}del_flag,
+${t}update_by,
+${t}create_time,
+${t}create_by,
+${t}update_time
+
+
+\$\{t\}(.+[^,])
+${t}$1 ${pref}$1
+
+$1 引用第一个()里的
+
+[^,] 排除,
