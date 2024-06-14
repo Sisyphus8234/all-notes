@@ -8,8 +8,6 @@ FreeFileSync
 
 XYplorer
 
-WizTree
-
 memreduct
 
 Directory Opus
