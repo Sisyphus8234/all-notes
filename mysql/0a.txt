@@ -1,2 +1,2 @@
 inner join虚拟表来提前筛选
-SELECT * FROM t_market_info mi inner join (select 1 as temp_column) temp on mi.info_code="WL221123001"
+SELECT * FROM t_market_info mi inner join (select 1 from dual) temp on mi.info_code="WL221123001"
